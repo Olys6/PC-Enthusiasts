@@ -1,3 +1,12 @@
+.BtnEffect {
+  transition: .2s;
+}
+
+.BtnEffect:hover {
+  transform: scale(1.1);
+  z-index: 1;
+}
+
 .Navbar {
   background-image: linear-gradient(to right, #000000, #0f0a0e, #14131a, #131b24, #0d232b, #0d3239, #0d4146, #125151, #176d6f, #1b8a8e, #1fa8b0, #21c7d4);
   border-bottom: 1px solid white;
@@ -5,6 +14,11 @@
 
 .HomePage {
   margin-top: 63px;
+}
+
+#root {
+  background-image: linear-gradient(to top, #272b7f, #302d90, #3c2da1, #492db2, #592ac2, #5c28c2, #5f26c3, #6223c3, #5823b4, #4f23a6, #462197, #3e2089);
+  background-attachment: fixed;
 }
 
 .carousel1 {
@@ -26,8 +40,9 @@
   // background-image: linear-gradient(to right , #020024, #090979, #00d4ff);
   // background-image: linear-gradient(to right top, #d16bca, #da66bb, #e062ac, #e3609d, #e45f8e, #e5558d, #e5498e, #e53c8e, #dd1ca4, #ca00bf, #a513de, #5832ff);
   // background-image: linear-gradient(to right, #b037e6, #9c41e8, #8748ea, #704eea, #5652e9, #5b4cda, #5d46cb, #5e40bd, #6b329f, #6d2582, #681c68, #5f1751);
-  background-image: linear-gradient(to right, #b037e6, #9c41e8, #8748ea, #704eea, #5652e9, #5652e9, #5652e9, #5652e9, #704eea, #8748ea, #9c41e8, #b037e6);
+  background-image: linear-gradient(to left bottom, #b037e6, #9c41e8, #8748ea, #704eea, #5652e9, #5652e9, #5652e9, #5652e9, #704eea, #8748ea, #9c41e8, #b037e6);
   // background-color: black;
+  background-attachment: fixed;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -43,4 +58,100 @@
 
 .FindComponentBtn:hover {
   transform: scale(1.2);
+}
+
+.componentsHero {
+  margin-top: 63px;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://i.imgur.com/1KiSYZt.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid white;
+  margin-bottom: 50px;
+}
+
+.heroTitle {
+  color: white;
+}
+
+.container {
+  margin-top: px;
+}
+
+.componentCardLink {
+  text-decoration: none;
+  color: black;
+}
+
+.componentCard {
+  // width: 18rem;
+  transition: .2s;
+}
+
+.cardBody {
+  text-decoration: none;
+  color: black;
+}
+
+.componentCard:hover {
+  transform: scale(1.1);
+}
+
+#dropdown-basic-button {
+  border-radius: 0px;
+}
+
+.componentPage {
+  margin-top: 63px;
+  // background-image: linear-gradient(to bottom, #2f2222, #362424, #3c2527, #43272a, #4a282d, #582930, #652933, #732935, #8b2634, #a2222f, #b81e28, #cc1c1c);
+  background-image: linear-gradient(to bottom, #151919, #1a2525, #1e3131, #223d3e, #264a4c, #295c5f, #2b6f72, #2b8285, #28a0a1, #22bfbe, #17deda, #00fff6);
+  color: white;
+
+}
+
+.componentImage {
+  border: 5px solid black;
+  margin-top: 3px;
+  margin-left: 3px;
+  border-radius: 5px;
+  width: 50%;
+}
+
+.componentImageAndDesc {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.priceAndAdd {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 10px;
+  margin-left: 3px;
+  gap: 1.5rem
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(106, 255, 47);
+  background-image: linear-gradient(to right, #008322, #1fa035, #35bf48, #49de5c, #5cfe70);  color: white;
+  box-shadow: 2px 2px 4px #575757;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.addToBuildBtn {
+  font-size: 30px;
+  box-shadow: 2px 2px 4px #575757;
 }

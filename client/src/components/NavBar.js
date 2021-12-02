@@ -16,7 +16,7 @@ const NavBar = () => {
     <>
       <Navbar bg="dark" variant="dark" className="Navbar" fixed="top">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="/">
             <img
               src="https://i.imgur.com/LDQuJuN.png"
               width="110"
@@ -26,8 +26,8 @@ const NavBar = () => {
             />
           </Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link >Home</Nav.Link>
-            <Nav.Link><i className="fas fa-microchip"></i>Components</Nav.Link>
+            {/* <Nav.Link href="/">Home</Nav.Link> */}
+            <Nav.Link href="/components"><i className="fas fa-microchip"></i>Components</Nav.Link>
             <Nav.Link><i className="fas fa-toolbox"></i> My builds</Nav.Link>
           </Nav>
           <Nav className="d-flex">

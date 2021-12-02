@@ -24,9 +24,12 @@ class ComponentDetailView(APIView):
             return Response(updated_component.errors, status=status.HTTP_422_UNPROCESSABLE_ENTITY)
     
     def get(self, request, pk):
+        print("****Working0000****")
         component = Component.objects.get(id=pk)
-        serialized_Component = ComponentSerializer(component)
-        return Response(serialized_Component.data, status=status.HTTP_200_OK)
+        print("****Working****")
+        serialized_component = ComponentSerializer(component)
+        print("****Working2222****")
+        return Response(serialized_component.data, status=status.HTTP_200_OK)
 
 class ComponentListView(APIView):
 
