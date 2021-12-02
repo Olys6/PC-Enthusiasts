@@ -3,13 +3,13 @@ import Navbar from 'react-bootstrap/Navbar'
 import { Nav } from 'react-bootstrap'
 import { Container } from 'react-bootstrap'
 import { NavDropdown } from 'react-bootstrap'
-
+import RegisterPopup from './Register'
 // import { Link } from 'react-router-dom'
 
 
 const NavBar = () => {
 
-
+  const [modalShow, setModalShow] = React.useState(false)
 
 
   return (
@@ -32,7 +32,11 @@ const NavBar = () => {
           </Nav>
           <Nav className="d-flex">
             <NavDropdown title="Join us!" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#">Register</NavDropdown.Item>
+              <NavDropdown.Item onClick={() => setModalShow(true)} >Register</NavDropdown.Item>
+              <RegisterPopup
+                show={modalShow}
+                onHide={() => setModalShow(false)}
+              />
               <NavDropdown.Item href="#">Login</NavDropdown.Item>
             </NavDropdown>
           </Nav>       

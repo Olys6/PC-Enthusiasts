@@ -28,11 +28,19 @@ const Components = () => {
   }, [])
 
   return (
-    <>
-      <div className="componentsHero">
+    <div className="components">
+      {/* <div className="componentsHero">
         <h2 className="heroTitle">Find the components to suit your desires!</h2>
-      </div>
-      <div className="container">
+      </div> */}
+      <Card className="text-center componentsHero">
+        <Card.Header className="heroTitle">Welcome to the components page</Card.Header>
+        <Card.Body className="componentsTitleAndButton">
+          <Card.Title className="heroTitle">Find the components to suit your desires!</Card.Title>
+          <Button href="#cardsSection" variant="primary">Start</Button>
+        </Card.Body>
+      </Card>
+
+      <section id="cardsSection" className="container">
         {theComponents.map(aComponent => {
           return (
             <Card key={aComponent.id} style={{ width: '18rem' }} className="componentCard">
@@ -59,8 +67,8 @@ const Components = () => {
             </Card>
           )
         })}
-      </div>
-    </>
+      </section>
+    </div>
   )
 }
 

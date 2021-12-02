@@ -6,12 +6,12 @@ class Component(models.Model):
     description = models.TextField()
     image = models.CharField(max_length=1000, default=None)
     types = (
-        ('1', 'PROCESSOR'),
-        ('2', 'MOTHERBOARD'),
-        ('3', 'GRAPHICS CARD'),
-        ('4', 'CASE'),
-        ('5', 'MEMORY'),
-        ('6', 'STORAGE'),
+        ('Processor', 'CPU'),
+        ('Motherboard', 'MB'),
+        ('Graphics Card', 'GPU'),
+        ('Case', 'CASE'),
+        ('Memory', 'RAM'),
+        ('Storage', 'STO'),
     )
     component_type = models.CharField(max_length=300, choices = types)
     price = models.IntegerField()

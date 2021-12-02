@@ -5,6 +5,7 @@ import NavBar from './components/NavBar.js'
 import Home from './components/Home.js'
 import Components from './components/Components.js'
 import Component from './components/Component.js'
+import Footer from './components/Footer.js'
 
 function App() {
   // React.useEffect(() => {
@@ -24,6 +25,7 @@ function App() {
           <Route exact path='/components' element={<Components />} />
           <Route exact path='/components/:pk/' element={<Component />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
       
     </>

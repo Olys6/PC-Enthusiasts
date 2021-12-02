@@ -7,8 +7,18 @@
   z-index: 1;
 }
 
+.dropdown-item {
+  transition: .2s;
+}
+
+.dropdown-item:hover {
+  transform: scale(1.01)
+}
+
 .Navbar {
-  background-image: linear-gradient(to right, #000000, #0f0a0e, #14131a, #131b24, #0d232b, #0d3239, #0d4146, #125151, #176d6f, #1b8a8e, #1fa8b0, #21c7d4);
+  // background-image: linear-gradient(to right, #000000, #0f0a0e, #14131a, #131b24, #0d232b, #0d3239, #0d4146, #125151, #176d6f, #1b8a8e, #1fa8b0, #21c7d4);
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 17%, rgba(67,226,231,1) 100%);  
   border-bottom: 1px solid white;
 }
 
@@ -60,6 +70,10 @@
   transform: scale(1.2);
 }
 
+.components {
+  margin-bottom: 40px;
+}
+
 .componentsHero {
   margin-top: 63px;
   width: 100%;
@@ -67,12 +81,19 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  height: 300px;
+  height: 550px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-bottom: 1px solid white;
   margin-bottom: 50px;
+}
+
+.componentsTitleAndButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .heroTitle {
@@ -99,7 +120,7 @@
 }
 
 .componentCard:hover {
-  transform: scale(1.1);
+  transform: scale(1.02);
 }
 
 #dropdown-basic-button {
@@ -109,9 +130,17 @@
 .componentPage {
   margin-top: 63px;
   // background-image: linear-gradient(to bottom, #2f2222, #362424, #3c2527, #43272a, #4a282d, #582930, #652933, #732935, #8b2634, #a2222f, #b81e28, #cc1c1c);
-  background-image: linear-gradient(to bottom, #151919, #1a2525, #1e3131, #223d3e, #264a4c, #295c5f, #2b6f72, #2b8285, #28a0a1, #22bfbe, #17deda, #00fff6);
+  // background-image: linear-gradient(to bottom, #151919, #1a2525, #1e3131, #223d3e, #264a4c, #295c5f, #2b6f72, #2b8285, #28a0a1, #22bfbe, #17deda, #00fff6);
+  // background-image: linear-gradient(to right, #00fff2, #00b5dc, #516c97, #3e3243, #000000);
+  background-image: linear-gradient(to left bottom, #000000, #261d25, #39374d, #385777, #137c99, #0093a9, #00aab4, #25c1ba, #36cfc8, #44ded5, #52ece3, #5ffbf1);
+  background-attachment: fixed;
   color: white;
+  height: 800px;
+}
 
+.componentTitle {
+  text-align: center;
+  padding: 15px;
 }
 
 .componentImage {
@@ -144,14 +173,74 @@
   align-items: center;
   justify-content: center;
   background-color: rgb(106, 255, 47);
-  background-image: linear-gradient(to right, #008322, #1fa035, #35bf48, #49de5c, #5cfe70);  color: white;
+  // background-image: linear-gradient(to right, #008322, #1fa035, #35bf48, #49de5c, #5cfe70);  color: white;
+  // background-image: linear-gradient(to right, #00ab2c, #3fc04e, #62d56d, #81ea8c, #9fffab);
+  // background-image: linear-gradient(to right, #00df39, #52e862, #79f084, #9bf8a4, #baffc2);
+  background: rgb(9,121,12);
+  background: linear-gradient(90deg, rgba(9,121,12,1) 35%, rgba(156,255,148,1) 100%);
   box-shadow: 2px 2px 4px #575757;
   font-size: 30px;
   text-align: center;
   border-radius: 5px;
+  border: 0px;
 }
 
-.addToBuildBtn {
+.componentDropdown {
+  
+}
+
+#addToBuildBtn {
   font-size: 30px;
   box-shadow: 2px 2px 4px #575757;
+  width: 100%;
+}
+
+.show:hover #addToBuildBtn {
+  transform: scale(1.1)
+}
+
+#dropDownMenu {
+  font-size: 20px;
+}
+
+
+
+
+// Footer Section
+
+.Footer {
+  // padding-top: 20px;
+  color: white;
+  // border-top: 1px solid black;
+  width: 100%;
+  height: 100px;
+  background-image: linear-gradient(to top, #323232, #515151, #737373, #969696, #bbbbbb);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerLinks {
+  color: black;
+  transition: .2s;
+}
+
+.footerLinks:hover {
+  color: white;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.formBtn {
+  background: rgb(9,9,121);
+  background: linear-gradient(90deg, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  transition: .3s;
+}
+
+.formBtn:hover {
+  transform: scale(1.01);
 }
