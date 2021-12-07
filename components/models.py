@@ -12,6 +12,7 @@ class Component(models.Model):
         ('Case', 'CASE'),
         ('Memory', 'RAM'),
         ('Storage', 'STO'),
+        ('Power Supply', 'PSP')
     )
     component_type = models.CharField(max_length=300, choices = types)
     price = models.IntegerField()

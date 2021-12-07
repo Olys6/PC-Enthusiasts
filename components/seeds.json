@@ -1,0 +1,14 @@
+[
+{
+  "model": "components.component",
+  "pk": 1,
+  "fields": {
+    "title": "AMD Ryzen 7 3700X",
+    "description": "8 Cores and 16 processing threads bundled with the AMD Wraith Prism cooler with color controlled LED support.",
+    "image": "https://i.imgur.com/1pc7YLD.png",
+    "component_type": "Processor",
+    "price": 299,
+    "place_to_buy": "https://www.amazon.com/AMD-Ryzen-3700X-16-Thread-Processor/dp/B07SXMZLPK/ref=sr_1_1?keywords=AMD%2BRyzen%2B7%2B3700X&qid=1638363974&qsid=133-1165200-0842621&sr=8-1&sres=B07SXMZLPK%2CB07SXMZLPJ%2CB0815XFSGK%2CB08166SLDF%2CB091J3NYVF%2CB08164VTWH%2CB089WCXZJC%2CB07SXMZLP9%2CB07SQBFN2D%2CB07B428V2L%2CB07ZTYKLZW%2CB0815JJQQ8%2CB07STGGQ18%2CB092L9GF5N%2CB0815Y8J9N%2CB0754JNQBP&srpt=COMPUTER_PROCESSOR&th=1"
+  }
+}
+]
