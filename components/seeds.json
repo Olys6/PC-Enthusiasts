@@ -10,5 +10,257 @@
     "price": 299,
     "place_to_buy": "https://www.amazon.com/AMD-Ryzen-3700X-16-Thread-Processor/dp/B07SXMZLPK/ref=sr_1_1?keywords=AMD%2BRyzen%2B7%2B3700X&qid=1638363974&qsid=133-1165200-0842621&sr=8-1&sres=B07SXMZLPK%2CB07SXMZLPJ%2CB0815XFSGK%2CB08166SLDF%2CB091J3NYVF%2CB08164VTWH%2CB089WCXZJC%2CB07SXMZLP9%2CB07SQBFN2D%2CB07B428V2L%2CB07ZTYKLZW%2CB0815JJQQ8%2CB07STGGQ18%2CB092L9GF5N%2CB0815Y8J9N%2CB0754JNQBP&srpt=COMPUTER_PROCESSOR&th=1"
   }
+},
+{
+  "model": "components.component",
+  "pk": 2,
+  "fields": {
+    "title": "MSI GeForce RTX 2080S GAMING X TRIO",
+    "description": "The MSI GeForce RTX 2080 Super Gaming X Trio is a high-end graphics card with the GeForce RTX 2080 SUPER GPU from nVidia. Based on the nVidia Turing architecture, the powerful GeForce RTX 20 graphics card series delivers new levels of gaming realism, speed and performance efficiency, and realistic VR experiences.",
+    "image": "https://i.imgur.com/UR9x5d0.png",
+    "component_type": "Graphics Card",
+    "price": 749,
+    "place_to_buy": "https://www.amazon.com/MSI-Gaming-2070-Super-Trio/dp/B07V265YWF/ref=sr_1_1?keywords=MSI+GeForce+RTX+2080S+GAMING+X+TRIO&qid=1638803309&sr=8-1"
+  }
+},
+{
+  "model": "components.component",
+  "pk": 3,
+  "fields": {
+    "title": "Asus ROG Crosshair VIII Hero X570",
+    "description": "The ASUS ROG Crosshair VIII Hero (WI-FI) is a motherboard in ATX format for gamers and overclockers. Two PCIe 4.0 slots in x16 format are available for graphics cards, which are directly connected to the Ryzen 3000 processor via a total of 16 PCIe 4.0 lanes.",
+    "image": "https://i.imgur.com/BZU8WLs.png",
+    "component_type": "Motherboard",
+    "price": 379,
+    "place_to_buy": "https://www.amazon.com/ROG-Crosshair-VIII-Motherboard-802-11Ax/dp/B07SZXBTNW/ref=sr_1_1?keywords=Asus%2BROG%2BCrosshair%2BVIII%2BHero&qid=1638803011&sr=8-1&th=1"
+  }
+},
+{
+  "model": "components.component",
+  "pk": 4,
+  "fields": {
+    "title": "G.Skill Trident Z Neo 32GB",
+    "description": "32GB kit containing 2 x 16GB modules, DDR4-3600, 288-Pin, CAS Latency CL18 (18-22-22-42) at 1.35V",
+    "image": "https://i.imgur.com/IStgzXU.png?1",
+    "component_type": "Memory",
+    "price": 159,
+    "place_to_buy": "https://www.amazon.com/G-SKILL-Trident-288-Pin-Desktop-F4-3600C18D-32GTZN/dp/B07WTSMHSY/ref=sr_1_3?keywords=G.Skill+Trident+Z+Neo+32GB&qid=1638803193&sr=8-3"
+  }
+},
+{
+  "model": "components.component",
+  "pk": 5,
+  "fields": {
+    "title": "Corsair Obsidian 750D Airflow Edition",
+    "description": "The Corsair Obsidian Series 750D Airflow Edition is a full-tower enclosure that offers great conditions for a powerful high-end system. It combines generous expansion flexibility, air and liquid cooling capabilities, and an interior optimized for fast, simple construction and upgrades.",
+    "image": "https://i.imgur.com/8vmR31B.png",
+    "component_type": "Case",
+    "price": 149,
+    "place_to_buy": "https://www.amazon.com/CORSAIR-OBSIDIAN-750D-Full-Tower-Case/dp/B00YJJBFIO/ref=sr_1_1?keywords=Corsair%2BObsidian%2B750D%2BAirflow%2BEdition&qid=1638803560&sr=8-1&th=1"
+  }
+},
+{
+  "model": "components.component",
+  "pk": 6,
+  "fields": {
+    "title": "Corsair RMx (2018) 850 W",
+    "description": "The Corsair RM850x Series power supplies are equipped with the highest quality components to power your PC with 80 PLUS Gold. Only with Japanese 105°C capacitors can the user rely on the longevity and reliability of an RM850x power supply.",
+    "image": "https://i.imgur.com/SxioRrd.png",
+    "component_type": "Power Supply",
+    "price": 119,
+    "place_to_buy": "https://www.amazon.com/CORSAIR-RM850x-Certified-Modular-Supply/dp/B079H5WNXN/ref=sr_1_2?keywords=corsair%2Brmx%2B(2018)%2B850w&qid=1638803600&sr=8-2&th=1"
+  }
+},
+{
+  "model": "components.component",
+  "pk": 7,
+  "fields": {
+    "title": "Samsung 970 EVO Plus (1000 GB, M.2)",
+    "description": "Equipped with the latest V-NAND technology, the 970 EVO Plus is even faster than the 970 EVO and also features firmware optimisation. Thanks to NVMe, even greater bandwidth is made possible for even faster access times. It is specifically designed for tech professionals, gamers, and professionals who frequently work on creating and editing videos or simulations.",
+    "image": "https://i.imgur.com/y37qkhi.png",
+    "component_type": "Storage",
+    "price": 129,
+    "place_to_buy": "https://www.amazon.com/Samsung-970-EVO-Plus-MZ-V7S1T0B/dp/B07MFZY2F2/ref=sr_1_1?keywords=Samsung%2B970%2BEVO%2BPlus%2B1000GB&qid=1638804113&sr=8-1&th=1"
+  }
+},
+{
+  "model": "components.component",
+  "pk": 8,
+  "fields": {
+    "title": "Seagate BarraCuda 2TB",
+    "description": "Seagate Harddisk BarraCuda 2TB 3.5\", storage Application area: desktop PC, total storage capacity: 2 TB, storage interface: SATA III (6Gb/s), hard disk form factor: 3.5\".",
+    "image": "https://i.imgur.com/EacyX05.png",
+    "component_type": "Storage",
+    "price": 49,
+    "place_to_buy": "https://www.amazon.com/Seagate-BarraCuda-Internal-Drive-3-5-Inch/dp/B07H2RR55Q/ref=sr_1_1?keywords=Seagate%2BBarraCuda%2B2TB&qid=1638804843&sr=8-1&th=1"
+  }
+},
+{
+  "model": "components.component",
+  "pk": 9,
+  "fields": {
+    "title": "AMD Ryzen 9 5900X",
+    "description": "The AMD Ryzen 9 5900X is the ultimate desktop processor for gamers, creatives and enthusiasts. AMD's multi-threading technology enables even better multitasking, as each processor core can process two tasks simultaneously. So you can enjoy intelligent multitasking.",
+    "image": "https://i.imgur.com/xvNSbEj.png",
+    "component_type": "Processor",
+    "price": 449,
+    "place_to_buy": "https://www.amazon.com/AMD-Ryzen-5950X-32-Thread-Processor/dp/B0815Y8J9N/ref=sr_1_2?keywords=AMD+Ryzen+9+5900X&qid=1638886948&sr=8-2"
+  }
+},
+{
+  "model": "components.component",
+  "pk": 10,
+  "fields": {
+    "title": "AMD Ryzen 5 5600X",
+    "description": "The AMD Ryzen 5 5600X is a processor that is especially aimed at gamers and overclockers. AMD's multi-threading technology enables even better multitasking, because each processor core can process two tasks simultaneously.",
+    "image": "https://i.imgur.com/JiGm658.png",
+    "component_type": "Processor",
+    "price": 189,
+    "place_to_buy": "https://www.amazon.com/AMD-Ryzen-5600X-12-Thread-Processor/dp/B08166SLDF/ref=sr_1_1?keywords=AMD%2BRyzen%2B5%2B5600X&qid=1639059785&sr=8-1&th=1"
+  }
+},
+{
+  "model": "components.component",
+  "pk": 11,
+  "fields": {
+    "title": "MSI GeForce RTX 3060 Ti GAMING X LHR",
+    "description": "NVIDIA GeForce 3060 Ti graphics card, with 1,410/1,770 MHz base/boost clock, 8 GB DDR6 VRAM with 14 GHz RAM clock (effective), quiet dual-fan Twin Frozer 8 cooler with RGB lighting, LHR version with reduced hashrate.",
+    "image": "https://i.imgur.com/0PNoOJx.png",
+    "component_type": "Graphics Card",
+    "price": 599,
+    "place_to_buy": "https://www.amazon.com/MSI-GeForce-RTX-3060-LHR/dp/B0995TBTLS/ref=sr_1_2?keywords=MSI+GeForce+RTX+3060+Ti+GAMING+X+LHR&qid=1639059895&sr=8-2"
+  }
+},
+{
+  "model": "components.component",
+  "pk": 12,
+  "fields": {
+    "title": "Gigabyte GeForce RTX 3070 EAGLE (rev. 2.0) NVIDIA GDDR6",
+    "description": "NVIDIA Ampere Streaming Multiprocessors 2nd Generation RT Cores 3rd Generation Tensor Cores Powered by GeForce RTX 3070 Integrated with 8GB GDDR6 256-bit memory interface WINDFORCE 3X Cooling System with alternate spinning fans RGB Fusion 2.0 Protection metal back plate 4 Years Warranty (Online registration required) 2x DisplayPort 1.4a, 2x HDMI 2.1 Core Clock: 1815Mhz. Get the ultimate gaming performance with GIGABYTE RTX 3070 Graphics Cards.",
+    "image": "https://i.imgur.com/E89GENc.png",
+    "component_type": "Graphics Card",
+    "price": 799,
+    "place_to_buy": "https://www.amazon.com/GIGABYTE-REV2-0-WINDFORCE-GV-N3060GAMING-OC-12GD/dp/B0971BG25M/ref=sr_1_1?keywords=Gigabyte+GeForce+RTX+3070+EAGLE+%28rev.+2.0%29+NVIDIA+GDDR6&qid=1639059967&sr=8-1"
+  }
+},
+{
+  "model": "components.component",
+  "pk": 13,
+  "fields": {
+    "title": "MSI B550M-A PRO AMD",
+    "description": "Main Features Processor Processor manufacturer AMD Processor socket Socket AM4 Compatible processors AMD Ryzen 3 3rd Gen, 3rd Generation AMD Ryzen 5, 3rd Generation AMD Ryzen 7, 3rd Generation AMD Ryzen 9 Memory Supported memory DDR4 SDRAM Number of memory slots 2 Memory type DIMM Supported memory speed.",
+    "image": "https://i.imgur.com/zxODrpe.png",
+    "component_type": "Motherboard",
+    "price": 69,
+    "place_to_buy": "https://www.amazon.com/MSI-ProSeries-Motherboard-Support-Micro-ATX/dp/B08P2FGBW5/ref=sr_1_2?keywords=MSI+B550M-A+PRO+AMD&qid=1639060104&sr=8-2"
+  }
+},
+{
+  "model": "components.component",
+  "pk": 14,
+  "fields": {
+    "title": "Gigabyte MB GBT AMD AM4 B550 Aorus Pro V2",
+    "description": "The Aorus Pro V2 is equipped with the B550 chipset and is suitable for AMD processors with socket AM4. The motherboard supports PCIe 4.0. With its ATX form factor, the Aorus Pro V2 fills the motherboard trays of common cases and offers numerous expansion options.",
+    "image": "https://i.imgur.com/5w6AF5k.png",
+    "component_type": "Motherboard",
+    "price": 159,
+    "place_to_buy": "https://www.amazon.com/GIGABYTE-B450-AORUS-PRO-WIFI/dp/B07FW85VFT/ref=sr_1_1?keywords=Gigabyte+MB+GBT+AMD+AM4+B550+Aorus+Pro+V2&qid=1639060169&sr=8-1"
+  }
+},
+{
+  "model": "components.component",
+  "pk": 15,
+  "fields": {
+    "title": "NZXT H510 Elite",
+    "description": "The NZXT H510 Elite is a successor of the H500i. Like its predecessors, the Midi Tower offers a proven, straightforward design. NZXT installs the Smart Device V2 to control fans and RGB LED accessories and refreshes the front panel with new connectors. In addition, not only the left side panel, but also the front of the H510 Elite is made of tempered glass.",
+    "image": "https://i.imgur.com/6HOxf0S.png",
+    "component_type": "Case",
+    "price": 169,
+    "place_to_buy": "https://www.amazon.com/NZXT-H510-Elite-Dual-Tempered-Water-Cooling/dp/B07T7L875Z/ref=sr_1_1?keywords=NZXT+H510+Elite&qid=1639060291&sr=8-1"
+  }
+},
+{
+  "model": "components.component",
+  "pk": 16,
+  "fields": {
+    "title": "Corsair iCUE 465X RGB",
+    "description": "The CORSAIR iCUE 465X RGB is a smart mid-tower ATX housing with brilliant optics and tempered glass panes. Three integrated CORSAIR LL120 RGB fans and the intelligent RGB lighting control iCUE Lighting Node CORE, in combination with powerful iCUE software, provide instant, fully configurable lighting.",
+    "image": "https://i.imgur.com/JuYiitB.png",
+    "component_type": "Case",
+    "price": 99,
+    "place_to_buy": "https://www.amazon.com/Corsair-Icue-Mid-Tower-Smart-Black/dp/B07W6RCKWF/ref=sr_1_1?keywords=Corsair%2BiCUE%2B465X%2BRGB&qid=1639060370&sr=8-1&th=1"
+  }
+},
+{
+  "model": "components.component",
+  "pk": 17,
+  "fields": {
+    "title": "Corsair Vengeance LPX",
+    "description": "The Vengeance LPX memory is specially designed for high performance overclocking. The heat distributor is made of pure aluminum to dissipate heat faster, while the custom-made high performance PCB channels the heat and offers excellent overclocking potential. Each integrated circuit was individually tested for maximum performance potential.",
+    "image": "https://i.imgur.com/xEn6KKE.png",
+    "component_type": "Memory",
+    "price": 69,
+    "place_to_buy": "https://www.amazon.com/Corsair-Vengeance-3200MHz-Desktop-Memory/dp/B0143UM4TC/ref=sr_1_1?keywords=Corsair+Vengeance+LPX&qid=1639060436&sr=8-1"
+  }
+},
+{
+  "model": "components.component",
+  "pk": 18,
+  "fields": {
+    "title": "G.Skill Trident Z RGB",
+    "description": "The new G. Skill Trindent Z RGB series offers powerful solutions with integrated LEDS for high-quality configurations. These kits optimize next-generation platforms and are an ideal solution for overclocking. With its colourful and slim design you give your machine the look of your dreams.",
+    "image": "https://i.imgur.com/ZJtpo9R.png",
+    "component_type": "Memory",
+    "price": 89,
+    "place_to_buy": "https://www.amazon.com/G-Skill-TridentZ-16GB-25600-F4-3200C16D-16GTZR/dp/B01MTDEYHU/ref=sr_1_1?keywords=G.Skill+Trident+Z+RGB&qid=1639060513&sr=8-1"
+  }
+},
+{
+  "model": "components.component",
+  "pk": 19,
+  "fields": {
+    "title": "Samsung 870 EVO",
+    "description": "Storage capacity total: 1000 GB, Storage interface: SATA III (6Gb/s), SSD height: 6.8 mm, SSD form factor: 2.5, Application area SSD: Consumer.",
+    "image": "https://i.imgur.com/N0bHubM.png",
+    "component_type": "Storage",
+    "price": 119,
+    "place_to_buy": "https://www.amazon.com/SAMSUNG-Inch-Internal-MZ-77E1T0B-AM/dp/B08QBJ2YMG/ref=sr_1_1?keywords=Samsung%2B870%2BEVO&qid=1639060567&sr=8-1&th=1"
+  }
+},
+{
+  "model": "components.component",
+  "pk": 20,
+  "fields": {
+    "title": "Gigabyte Aorus Gen4",
+    "description": "Incredibly fast M.2 SSD (2280 format) with 1 TB capacity, PCIe 4.0 x4 connectivity & NVMe 1.3 support, up to 5,000/4,400 MB/s read/write, 1,800 TB TBW / 5 year warranty.",
+    "image": "https://i.imgur.com/Uf0ioSx.png",
+    "component_type": "Storage",
+    "price": 159,
+    "place_to_buy": "https://www.amazon.com/Gigabyte-PCI-Express-Interface-Performance-GP-AG4500G/dp/B08FD13PRD/ref=sr_1_3?keywords=Gigabyte%2BAorus%2BGen4&qid=1639060654&sr=8-3&th=1"
+  }
+},
+{
+  "model": "components.component",
+  "pk": 21,
+  "fields": {
+    "title": "Thermaltake TR2 S 700W POWER SUPPLY",
+    "description": "TR2 S 700W, ATX 12V 2.3, Active PFC, 120mm fan, 2x PCI-E 6+2pin, 1x 4+4pin, 6x SATA, 5x 4pin, 1x FDD, Black.",
+    "image": "https://i.imgur.com/fVLR4bw.png",
+    "component_type": "Power Supply",
+    "price": 59,
+    "place_to_buy": "https://www.amazon.com/ThermalTake-POWER-SUPPLY-80PLUS-PS-TRS-0700NPCWEU-2/dp/B016WFYCFU/ref=sr_1_1?keywords=Thermaltake+TR2+S+700W+POWER+SUPPLY&qid=1639060716&sr=8-1"
+  }
+},
+{
+  "model": "components.component",
+  "pk": 22,
+  "fields": {
+    "title": "LC-Power Power supply LC Power, Metatron Series 750W RGB",
+    "description": "LC-Power power supply LC8750RGB V2.3 Prophecy RGB 750 W.",
+    "image": "https://i.imgur.com/VvCbhAL.png",
+    "component_type": "Power Supply",
+    "price": 129,
+    "place_to_buy": "https://www.amazon.com/Supply-Modular-Certified-GAMEMAX-RGB-750/dp/B08LQDFZM7/ref=sr_1_5?keywords=LC-Power+Power+supply+LC+Power%2C+Metatron+Series+750W+RGB&qid=1639060778&sr=8-5"
+  }
 }
 ]

@@ -1,0 +1,48 @@
+[
+{
+  "model": "builds.build",
+  "pk": 4,
+  "fields": {
+    "title": "My Build",
+    "user": "Oliver",
+    "components": [
+      1,
+      6,
+      5,
+      2,
+      3,
+      7,
+      8,
+      4
+    ]
+  }
+},
+{
+  "model": "builds.build",
+  "pk": 10,
+  "fields": {
+    "title": "another build",
+    "user": "Oliver",
+    "components": [
+      6,
+      5,
+      2,
+      3,
+      7,
+      4,
+      9
+    ]
+  }
+},
+{
+  "model": "builds.build",
+  "pk": 14,
+  "fields": {
+    "title": "a cool build",
+    "user": "admin",
+    "components": [
+      2
+    ]
+  }
+}
+]

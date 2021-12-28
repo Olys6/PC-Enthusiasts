@@ -21,5 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/components/', include('components.urls')),
     path('api/auth/', include('jwt_auth.urls')),
-    path('api/builds', include('builds.urls')),
+    path('api/builds/', include('builds.urls')),
 ]

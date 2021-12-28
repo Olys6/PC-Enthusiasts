@@ -52,7 +52,7 @@ const RegisterPopup = (props) => {
     try {
 
       // ------------- register ---------------
-      // console.log(formData)
+      console.log(registerFormData)
       const config = {
         method: 'post',
         url: '/api/auth/register/',
@@ -63,7 +63,7 @@ const RegisterPopup = (props) => {
         data: registerFormData,
         // body: data,
       }
-
+      
       const response = await axios(config)
       console.log(response)
 
@@ -89,7 +89,7 @@ const RegisterPopup = (props) => {
       // await axios.post('api/auth/register/', formData)
       // navigate('/login')
       setRegisterSuccess(true)
-      setInterval(function(){
+      setTimeout(function(){
         window.location.reload()
       }, 1800)
 

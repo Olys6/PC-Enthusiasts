@@ -134,6 +134,7 @@ body {
 }
 
 .heroTitle {
+  font-size: 30px;
   color: white;
 }
 
@@ -175,7 +176,7 @@ body {
   background-image: linear-gradient(to left bottom, #000000, #261d25, #39374d, #385777, #137c99, #0093a9, #00aab4, #25c1ba, #36cfc8, #44ded5, #52ece3, #5ffbf1);
   background-attachment: fixed;
   color: white;
-  height: 700px;
+  min-height: 89vh;
 }
 
 #digitecCredit {
@@ -195,12 +196,13 @@ body {
   // background-image: url("https://i.imgur.com/rdNAWQK.jpg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://i.imgur.com/faaS0oX.png");
   background-attachment: fixed;
-  // background-repeat: no-repeat;
-  // background-size: cover;
-  background-size:contain
+  background-repeat: no-repeat;
+  background-size: cover;
+  // background-size:contain
 }
 
 .componentsSearch {
+  font-size: 25px;
   width: 30vw;
   height: 6vh;
   border: 2px solid white;
@@ -208,7 +210,9 @@ body {
 }
 
 .componentsFilter {
+  font-size: 25px;
   width: 30vw;
+  height: 6vh;
 }
 
 .componentTitle {
@@ -229,7 +233,7 @@ body {
   margin-top: 3px;
   margin-left: 3px;
   border-radius: 5px;
-  width: 50%;
+  width: 40%;
   box-shadow: 2px 2px 4px #575757;
 }
 
@@ -248,7 +252,8 @@ body {
   width: 100%;
   margin-top: 40px;
   margin-left: 10px;
-  gap: 0.5rem
+  gap: 0.5rem;
+  // margin-bottom: 0px;
 }
 
 .price {
@@ -266,6 +271,8 @@ body {
   text-align: center;
   border-radius: 5px;
   border: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .price:hover {
@@ -284,14 +291,18 @@ body {
   box-shadow: 2px 2px 4px #575757;
   font-size: 30px;
   gap: 1rem;
-  background-color: rgb(223, 182, 0);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  // background-color: rgb(223, 182, 0);
+  // background-color: rgb(30, 255, 0);
   margin-right: 20px;
   // transition: .2s;
 }
 
 .shareButton:hover {
   // transform: scale(1.1);
-  background-color: rgb(223, 182, 0);
+  // background-color: rgb(223, 182, 0);
+  // background-color: rgb(30, 255, 0);
 }
 
 .shareModal {
@@ -341,6 +352,66 @@ body {
   // width: 20px;
   // height: 20px;
   // font-size: 30px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.buildsSwitch {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+  color: white;
 }
 
 .builds {
@@ -517,7 +588,9 @@ body {
 .buildUsernameForm {
   display: flex;
   flex-direction: row;
-  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+  // gap: 1rem;
 }
 
 .formSelectComp {
@@ -527,11 +600,23 @@ body {
   margin-bottom: 5px;
 }
 
+.checkboxes {
+  margin-top: 100px;
+  height: 100px;
+}
+
 .accordion {
   border-top-left-radius: 0px;
   border-radius: 0px;
   margin-top: 20px;
   width: 80%;
+}
+
+.buildAccordionBody {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 50px;
 }
 
 .accordionComp {
@@ -544,11 +629,66 @@ body {
   border-radius: 0px;
 }
 
+.buildIsFinished {
+  font-size: 40px;
+  margin: 20px;
+}
+
+.singleBuildContainer {
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 90px;
+  text-align: center;
+  min-height: 100vh;
+  margin-bottom: 40px;
+}
+
+.buildCardsSection {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.buildTitle {
+  font-size: 39px;
+  padding: 20px;
+}
+
+.areYouSureHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.areYouSureFooter {
+  display: flex;
+  justify-content: center;
+}
+
+.totalPrice {
+  color: rgb(35, 202, 1);
+}
+
+.buildButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 20px;
+}
+
+.buildButton {
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
 // -----Footer Section------
 
 #Footer {
   // padding-top: 20px;
-  color: white;
+  color: rgb(46, 46, 46);
   // border-top: 1px solid black;
   width: 100%;
   height: 60px;
@@ -556,6 +696,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  // margin-top: 40px;
   // position: absolute;
   // bottom: 0;
   // overflow: hidden;
@@ -563,12 +704,13 @@ body {
 }
 
 .footerLinks {
-  color: black;
+  color: white;
   transition: .2s;
+  text-decoration: none;
 }
 
 .footerLinks:hover {
-  color: white;
+  color: rgb(46, 46, 46);
 }
 
 .footerOffcanvasTitle {

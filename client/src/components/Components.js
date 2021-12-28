@@ -3,8 +3,8 @@ import axios from 'axios'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 import { ButtonGroup } from 'react-bootstrap'
-import { DropdownButton } from 'react-bootstrap'
-import { Dropdown } from 'react-bootstrap'
+// import { DropdownButton } from 'react-bootstrap'
+// import { Dropdown } from 'react-bootstrap'
 // import { Link } from 'react-router-dom'
 import { Form } from 'react-bootstrap'
 import { getPayload } from './helpers/authentication'
@@ -108,11 +108,13 @@ const Components = () => {
                         <>
                         </>
                         :
-                        <DropdownButton id="cardDropdown" variant="secondary" title={<i className="fas fa-plus"></i>}>
-                          <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                          <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-                          <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-                        </DropdownButton>
+                        <>
+                          {/* <DropdownButton id="cardDropdown" variant="secondary" title={<i className="fas fa-plus"></i>}>
+                            <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                            <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+                            <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+                          </DropdownButton> */}
+                        </>
                       }
                       {/* <i className="fas fa-plus"></i>
                       </Button> */}

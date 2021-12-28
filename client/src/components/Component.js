@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import { useParams } from 'react-router-dom'
 import Button from 'react-bootstrap/Button'
-import Dropdown from 'react-bootstrap/Dropdown'
+// import Dropdown from 'react-bootstrap/Dropdown'
 import Modal from 'react-bootstrap/Modal'
 
 const Component = () => {
@@ -46,7 +46,7 @@ const Component = () => {
         {/* <Button className="w-50 price BtnEffect">Buy! {component.price} &#xa3;</Button> */}
         <Button href={component.place_to_buy} target="_blank" className="w-50 price BtnEffect"><i className="fab fa-amazon"></i></Button>
         {/* <Button className="w-50 addToBuildBtn BtnEffect">Add to build</Button> */}
-        <Dropdown className="w-50 componentDropdown">
+        {/* <Dropdown className="w-50 componentDropdown">
           <div className="addToBuildBtn w-100">
             <Dropdown.Toggle variant="primary" id="addToBuildBtn" className=" BtnEffect">
               Add to build
@@ -58,7 +58,7 @@ const Component = () => {
             <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
             <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
           </Dropdown.Menu>
-        </Dropdown>
+        </Dropdown> */}
 
         {/* href={`https://reddit.com/submit?url=${component.place_to_buy}&title=Add the ${component.title} component to your build!`} target="_blank" rel="noreferrer"></div> */}
 
