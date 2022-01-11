@@ -153,10 +153,12 @@ I spent a lot of time trying to get components added to the builds, I initially 
 </ul>
 
 ## Future Improvements
+
 <ul>
 <li>I would’ve added an accordion in the build page so you could add more components to a build that already exists.</li>
 <li>I would have liked to style the website a bit more by improving the colours and the user interface.</li>
 </ul>
+
 ## Key Learning
 
 This app made me so much more confident, it greatly improved my understanding of everything I learnt during the course. To be more specific, I understand how local storage, user authentication and backend works now. I now also feel very comfortable with React and understand a lot more about Python/Django.
