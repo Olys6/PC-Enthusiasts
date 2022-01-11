@@ -68,7 +68,7 @@ When I finished the homepage, I started working on the components page and regis
     }, [])
 
 ## 5th day: 
-I spent the day making a single component page where you can find more information about a component of your choice. This page includes an amazon link to the component as the API includes an amazon link to each component as well as a share button that work using basic HTML and a Modal from react bootstrap. Then I worked on the builds page where you can create builds by sending a put request to the API. 
+I spent the day making a single component page where you can find more information about a component of your choice. This page includes an amazon link to the component as the API contains the link to each component as well as a share button that work using basic HTML and a Modal from react bootstrap. Then I worked on the builds page where you can create builds by sending a put request to the API. 
 
 <img src="https://i.imgur.com/JYDAp0H.png">
 
