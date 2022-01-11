@@ -36,11 +36,11 @@ I decided to make an app off a hobby I have which is PC building! I started by m
 
 <img src="https://i.imgur.com/5LYWudn.png">
 
-### Wireframe - Figma: 
+### Wireframe: 
 
 <img src="https://i.imgur.com/aZc1DEB.png">
 
-After all the planning was done using figma and Quickdatabasediagrams, I immediately started working on the structure of the backend and I managed to finish it on the first day I started on the app.
+After all the planning was done using Figma and Quickdatabasediagrams, I immediately started working on the structure of the backend and I managed to finish it on the first day I started on the app.
 2nd day: Commence front-end!
 
 I began by making the homepage and playing around with react-bootstrap as I haven’t used it before. I wanted to find a neat tool on bootstrap to start familiarising myself with the framework. I figured getting a carousel going would be a good start! Got it working almost perfectly first try, I then proceeded to make the navbar and the rest of the homepage.
