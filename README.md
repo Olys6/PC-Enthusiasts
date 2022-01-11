@@ -32,15 +32,11 @@ PC Enthusiasts is an app that I had a week to work on and it allows you to build
 I decided to make an app off a hobby I have which is PC building! I started by making a diagram of how the backend is going to work. Once I finished with the diagram, I started making a wireframe of the website.
 
 
-
-
-
-
 ### Diagram:
 
 <img src="https://i.imgur.com/5LYWudn.png">
 
-### Wireframe: 
+### Wireframe - Figma: 
 
 <img src="https://i.imgur.com/aZc1DEB.png">
 
