@@ -14,6 +14,8 @@
 
 PC Enthusiasts is an app that I had a week to work on and it allows you to build your computer! It shows you the components available to use on your own “build” which acts as a folder to dump all of your computer parts into. I took inspiration from the website <a href="https://pcpartpicker.com">part picker</a>. 
 
+## Deployed project <a href="https://pc-enthusiasts.herokuapp.com">here</a>
+
 ## Technologies used
 
 <div style="display: flex; flex-direction: row; gap: 1.5rem; margin-bottom: 10px;">
